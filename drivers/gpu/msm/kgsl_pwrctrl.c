@@ -45,8 +45,8 @@
 #define INIT_UDELAY		200
 #define MAX_UDELAY		2000
 
-#ifdef CONFIG_CPU_FREQ_GOV_SLIM
-int graphics_boost = 6;
+#if defined(CONFIG_CPU_FREQ_GOV_ELEMENTALX) || defined(CONFIG_CPU_FREQ_GOV_SLIM)
+int graphics_boost = 5;
 #endif
 
 
