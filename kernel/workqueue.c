@@ -42,11 +42,8 @@
 #include <linux/lockdep.h>
 #include <linux/idr.h>
 #include <linux/bug.h>
-<<<<<<< HEAD
 #include <linux/moduleparam.h>
-=======
 #include <linux/hashtable.h>
->>>>>>> f5fb08b... workqueue: use new hashtable implementation
 
 #include "workqueue_sched.h"
 
